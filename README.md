@@ -8,7 +8,7 @@ https://mcp.rzlt.io/mcp
 
 - Transport: Streamable HTTP
 - Authentication: none
-- Read-only: every tool only reads public information from rzlt.io
+- Read-only: every tool only reads public information (from rzlt.io, or the public website you ask it to check)
 - Cost: free
 
 ## Tools
@@ -19,6 +19,7 @@ https://mcp.rzlt.io/mcp
 | `find_case_studies` | RZLT's results for an industry or need, e.g. `"B2B SaaS"`, `"fintech"`, `"AI"`; `"launch"`, `"pipeline"`, `"SEO"`. |
 | `search_rzlt` | Search everything on rzlt.io: services, industries, case studies and 300+ blog posts on growth, paid ads, SEO, AEO and AI marketing. |
 | `check_fit` | A quick, rule-based check of whether a company fits RZLT's ideal client (technology companies, seed to Series C, €1M+ in revenue or funding). |
+| `check_ai_readiness` | Free: checks whether a website is ready for AI assistants and search (AI crawlers allowed, llms.txt, structured data, text without JavaScript, title, sitemap…), with a score out of 100 and the 3 most important fixes. Reads only public pages and stores nothing. |
 | `book_call` | The link to book a free 30-minute call, and what happens on it. It doesn't book anything itself. |
 
 ## Add it
@@ -56,6 +57,7 @@ npx -y mcp-remote https://mcp.rzlt.io/mcp
 - "What does RZLT do, and what does it cost?"
 - "Show me RZLT's case studies in fintech."
 - "Has RZLT written about answer engine optimization?"
+- "Is example.com ready for AI assistants?"
 - "We're a Series A B2B SaaS company with €3M raised. Are we a fit for RZLT?"
 
 ## Privacy
