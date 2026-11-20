@@ -10,7 +10,7 @@ https://mcp.rzlt.io/mcp
 
 - Transport: Streamable HTTP
 - Authentication: none
-- Read-only: every tool only reads public information (from rzlt.io, or the public website you ask it to check)
+- Six tools only read public information (from rzlt.io, or the public website you ask it to check); `send_message` sends RZLT a message, only after you've seen and approved the exact text
 - Cost: free
 
 ## Tools
@@ -23,10 +23,11 @@ https://mcp.rzlt.io/mcp
 | `check_fit` | A quick, rule-based check of whether a company fits RZLT's ideal client (technology companies, seed to Series C, €1M+ in revenue or funding). |
 | `check_ai_readiness` | Free: checks whether a website is ready for AI assistants and search (AI crawlers allowed, llms.txt, structured data, text without JavaScript, title, sitemap…), with a score out of 100 and the 3 most important fixes. Reads only public pages and stores nothing. |
 | `book_call` | The link to book a free 30-minute call, and what happens on it. It doesn't book anything itself. |
+| `send_message` | Send RZLT a message (name, email, company, your question). Your assistant shows you the exact text and sends it only with your OK; RZLT replies within one working day. |
 
 ## Add it
 
-**Claude** (claude.ai, Desktop, mobile): Settings → Connectors → Add custom connector → name `RZLT`, URL `https://mcp.rzlt.io/mcp`.
+**Claude** (claude.ai, Desktop, mobile): Customize → Connectors → Add custom connector → name `RZLT`, URL `https://mcp.rzlt.io/mcp`.
 
 **Claude Code**
 
@@ -60,14 +61,15 @@ npx -y mcp-remote https://mcp.rzlt.io/mcp
 - "Show me RZLT's case studies in fintech."
 - "Has RZLT written about answer engine optimization?"
 - "Is example.com ready for AI assistants?"
+- "Send RZLT a message: we need help with LinkedIn ads for a Series A SaaS."
 - "We're a Series A B2B SaaS company with €3M raised. Are we a fit for RZLT?"
 
 ## Privacy
 
-The connector is public and read-only. It keeps no account data. For abuse protection and to improve answers it counts calls per tool and per client, and keeps the text of search questions for up to 90 days, without IP addresses. See [rzlt.io/privacy](https://www.rzlt.io/privacy).
+The connector is public, with no account or sign-in. For abuse protection and to improve answers it counts calls per tool and per client, and keeps the text of search questions for up to 90 days, without IP addresses. Messages you choose to send with `send_message` (name, email, company, message) are kept up to 12 months, only to reply to you. See [rzlt.io/privacy](https://www.rzlt.io/privacy).
 
 ## Contact
 
 [Book a call](https://www.rzlt.io/book-a-call) · hello@rzlt.io
 
-This repository holds the connector's public listing (`server.json`) for the [MCP Registry](https://registry.modelcontextprotocol.io). The server itself runs at mcp.rzlt.io.
+Website: https://mcp.rzlt.io · This repository holds the connector's public listing (`server.json`) for the [MCP Registry](https://registry.modelcontextprotocol.io). The server itself runs at mcp.rzlt.io.
