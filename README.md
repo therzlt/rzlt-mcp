@@ -1,5 +1,7 @@
 # RZLT connector for AI assistants (MCP)
 
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/therzlt/rzlt-mcp) [![RZLT MCP connector](https://glama.ai/mcp/connectors/io.rzlt/connector/badges/score.svg)](https://glama.ai/mcp/connectors/io.rzlt/connector)
+
 Ask RZLT from your AI assistant. RZLT ([rzlt.io](https://www.rzlt.io)) is an AI-native growth and marketing agency for technology companies, B2B and B2C, and a Google Partner. This remote [Model Context Protocol](https://modelcontextprotocol.io) server lets Claude, ChatGPT, Cursor, VS Code and other MCP clients answer questions about RZLT from the source: what it does, its case studies, its writing, whether a company is a fit, and how to book a call.
 
 ```
