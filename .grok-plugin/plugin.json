@@ -1,6 +1,6 @@
 {
   "name": "rzlt",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "RZLT for Grok Build via RZLT's hosted MCP server at mcp.rzlt.io: ask RZLT, an AI-native growth and marketing agency, about its services, case studies and writing, check whether a company is a fit, run a free AI-readiness check on any website, and send RZLT a message after you approve the text. No sign-in.",
   "author": {
     "name": "RZLT",
