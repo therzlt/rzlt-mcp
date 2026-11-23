@@ -1,0 +1,14 @@
+{
+  "name": "rzlt",
+  "version": "1.3.0",
+  "description": "RZLT for Grok Build via RZLT's hosted MCP server at mcp.rzlt.io: ask RZLT, an AI-native growth and marketing agency, about its services, case studies and writing, check whether a company is a fit, run a free AI-readiness check on any website, and send RZLT a message after you approve the text. No sign-in.",
+  "author": {
+    "name": "RZLT",
+    "url": "https://www.rzlt.io"
+  },
+  "homepage": "https://mcp.rzlt.io",
+  "repository": "https://github.com/therzlt/rzlt-mcp",
+  "license": "MIT",
+  "keywords": ["rzlt", "rzlt.io", "rzlt agency", "rzlt mcp"],
+  "logo": "assets/rzlt-icon.svg"
+}
